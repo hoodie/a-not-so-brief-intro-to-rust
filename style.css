@@ -1,0 +1,127 @@
+@import url(https://fonts.googleapis.com/css?family=Vollkorn);
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+body {
+    font-family: 'Lato';
+    color: #333;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Vollkorn', 'Yanone Kaffeesatz';
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+.remark-code,
+.remark-inline-code {
+    font-family: 'Ubuntu Mono';
+    color: darkred;
+    font-size: 1.2em;
+}
+
+.remark-slide>.middleish {
+    padding-top: 20%;
+}
+
+.remark-slide>.high{
+    padding-top: 15%;
+}
+
+.remark-slide>.title>h1 {
+    font-size: 4em;
+}
+
+.remark-slide>a {
+    font-size: 1.2em;
+}
+
+sup>a {
+    font-size: 0.8em;
+}
+
+.remark-slide table {
+    width: 100%;
+}
+
+.remark-slide img {
+    max-width: 95%;
+    max-height: 80%;
+}
+
+.remark-slide>.inverse a {
+    font-size: 1.2em;
+    color: lightpink;
+}
+
+.pull-right p ,
+.pull-right big {
+    float: right;
+}
+
+.pull-right ul {
+    float: right;
+}
+
+.pull-left ul {
+    float: left;
+}
+
+.inverse {
+    background: #272822;
+    color: #777872;
+    text-shadow: 0 0 20px #333;
+}
+
+.inverse h1,
+.inverse h2 {
+    color: #f3f3f3;
+    line-height: 0.8em;
+}
+
+.chapter {
+    position: absolute;
+    font-family: 'Vollkorn';
+    font-style: italic;
+    top: 1em;
+    right: 1em;
+    font-size: 1.8em;
+    float: left;
+}
+
+.footnote {
+    position: absolute;
+    bottom: 3em;
+    right: 1em;
+    font-size: 0.9em;
+    float: left;
+}
+big {
+    font-size: 5em;
+}
+
+blockquote {
+    font-size: 2em;
+    font-family: 'Yanone Kaffeesatz';
+    font-weight: bold;
+    margin: 1.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+    color: #ccc;
+    font-family: 'Yanone Kaffeesatz';
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+blockquote p {
+    display: inline;
+}
